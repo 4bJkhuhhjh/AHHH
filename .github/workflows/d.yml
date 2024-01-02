@@ -2,9 +2,9 @@ name: Build and Package
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "swiftui" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "swiftui" ]
   workflow_dispatch:
 
 jobs:
